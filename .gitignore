@@ -1,4 +1,4 @@
 node_modules/
-public/
-resources/
-functions/
+dist/
+/npm-debug.log
+yarn-error.log
