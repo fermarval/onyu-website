@@ -1,6 +1,7 @@
 languageCode = "es-es"
 title = "onyu studio"
 disableKinds = ["taxonomy", "taxonomyTerm"]
+theme = "kross-hugo"
 
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
