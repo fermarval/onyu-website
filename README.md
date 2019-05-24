@@ -1,69 +1,120 @@
-<div align="center">
-<h1><a>Kross Creative Portfolio Template (MIT License)</a></h1>
-<p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/70647bf629c186906fe00a617a50946bfaecd6aa/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f7468656d656669736865722f6b726f73732d6875676f2d706f7274666f6c696f2d74656d706c6174652e7376673f636f6c6f723d253232627269676874677265656e253232267374796c653d666c61742d737175617265"><img src="https://camo.githubusercontent.com/70647bf629c186906fe00a617a50946bfaecd6aa/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f7468656d656669736865722f6b726f73732d6875676f2d706f7274666f6c696f2d74656d706c6174652e7376673f636f6c6f723d253232627269676874677265656e253232267374796c653d666c61742d737175617265" alt="GitHub stars" data-canonical-src="https://img.shields.io/github/stars/themefisher/kross-hugo-portfolio-template.svg?color=%22brightgreen%22&amp;style=flat-square" style="max-width:100%;"></a>
-<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/681bb16b34f1f1bd8f1f39a7eee31a977147c273/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f7468656d656669736865722f6b726f73732d6875676f2d706f7274666f6c696f2d74656d706c6174652e7376673f636f6c6f723d25323273756363657373253232267374796c653d666c61742d737175617265"><img src="https://camo.githubusercontent.com/681bb16b34f1f1bd8f1f39a7eee31a977147c273/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f7468656d656669736865722f6b726f73732d6875676f2d706f7274666f6c696f2d74656d706c6174652e7376673f636f6c6f723d25323273756363657373253232267374796c653d666c61742d737175617265" alt="GitHub forks" data-canonical-src="https://img.shields.io/github/forks/themefisher/kross-hugo-portfolio-template.svg?color=%22success%22&amp;style=flat-square" style="max-width:100%;"></a>
-<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/5039397335b7dac7e7aecc23078acf9ca39e3385/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d636c6f7365642d7261772f7468656d656669736865722f6b726f73732d6875676f2d706f7274666f6c696f2d74656d706c6174652e7376673f636f6c6f723d2532326f72616e6765253232267374796c653d666c61742d737175617265"><img src="https://camo.githubusercontent.com/5039397335b7dac7e7aecc23078acf9ca39e3385/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d636c6f7365642d7261772f7468656d656669736865722f6b726f73732d6875676f2d706f7274666f6c696f2d74656d706c6174652e7376673f636f6c6f723d2532326f72616e6765253232267374796c653d666c61742d737175617265" alt="GitHub issues closed" data-canonical-src="https://img.shields.io/github/issues-closed-raw/themefisher/kross-hugo-portfolio-template.svg?color=%22orange%22&amp;style=flat-square" style="max-width:100%;"></a>
-<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/6ca1c5219092f946929535f79cd0bc274c1499d4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d626c75652e7376673f267374796c653d666c61742d737175617265"><img src="https://camo.githubusercontent.com/6ca1c5219092f946929535f79cd0bc274c1499d4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d626c75652e7376673f267374796c653d666c61742d737175617265" alt="license" data-canonical-src="https://img.shields.io/badge/license-MIT-blue.svg?&amp;style=flat-square" style="max-width:100%;"></a></p>
-</div>
+# Victor Hugo CMS Template
+<!-- Markdown snippet -->
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/bdougie/casper-cms-template)
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/37659754/58154256-00627500-7c93-11e9-90c1-c145cb396902.gif"  width="100%" alt="kross portfolio template by themefisher">
-</div>
+![casper theme image](https://s3-us-west-1.amazonaws.com/publis-brian-images/casper.jpg)
 
-**Kross Portfolio Templates** - Kross is a creative, sleek and modern portfolio website template with a gorgeous appearance. It appears with an amazing, stunning graphics. The minimal interface with the necessary sections will surely help the visitors to get a thorough idea about your works.Put together beginners in mind, kross is very easy to use and built with a clean and valid international standard coding structure.
+**A [Hugo](http://gohugo.io/) boilerplate for creating truly epic websites**
 
-## Table of Contents
+This is a boilerplate for using Hugo as a static site generator and Gulp + Weback as your
+asset pipeline.
 
-- [Demo](#demo)
-- [Quick Start](#quick-start)
-- [Plugins](#plugins)
-- [Reporting Issues](#reporting-issues)
-- [Technical Support or Questions](#technical-support-or-questions)
-- [Licensing](#licensing)
-- [More Hugo Themes](https://themefisher.com/hugo-themes/)
+It's setup to use post-css and babel for CSS and JavaScript.
 
-## Demo
+## Usage
+Be sure that you have the latest node, npm and [Hugo](https://gohugo.io/overview/installing/) installed. If you need to install hugo, run:
 
-| Homepage  | About  | Blog  | Portfolio  | Contact  |
-|---|---|---|---|---|
-| ![Homepage](https://user-images.githubusercontent.com/37659754/58154295-1a9c5300-7c93-11e9-992c-ad8d2ff8d99f.png) | ![About](https://user-images.githubusercontent.com/37659754/58154317-28ea6f00-7c93-11e9-914b-b7e5f1cdab0e.png) | ![Blog](https://user-images.githubusercontent.com/37659754/58154339-369ff480-7c93-11e9-9568-53b7ebdc6b2d.png) | ![portfolio](https://user-images.githubusercontent.com/37659754/58154368-491a2e00-7c93-11e9-8900-f5a6abe0a61d.png) | ![contact](https://user-images.githubusercontent.com/37659754/58154403-57684a00-7c93-11e9-9cea-ea28253a6f6a.png) |
+Clone this repository and run:
 
-[Live Preview](https://themes.gohugo.io/theme/kross-hugo-portfolio-template/).
+```bash
+npm install
+npm start
+```
 
-## Quick Start
-Quick start options:
+Then visit http://localhost:3000/ - BrowserSync will automatically reload CSS or
+refresh the page when stylesheets or content changes.
 
-- Clone the repo: `git clone https://github.com/themefisher/kross-hugo-portfolio-template.git`.
-- [Download from Github](https://github.com/themefisher/kross-hugo-portfolio-template/archive/master.zip).
-- [Download from themefisher website](https://themefisher.com/products/kross-creative-portfolio-template).
+To build your static output to the `/dist` folder, use:
 
-## Plugins
-* Bootstrap - http://getbootstrap.com
-* Jquery - 	http://www.chartjs.org/
-* Shuffle - 	https://vestride.github.io/Shuffle/
-* slick slider - 	https://kenwheeler.github.io/slick/
-* Themify Icons - 	https://themify.me/themify-icons
+```bash
+npm run build
+```
 
+## Structure
 
-## Reporting Issues
+```
+|--site                // Everything in here will be built with hugo
+|  |--content          // Pages and collections - ask if you need extra pages
+|  |--data             // YAML data files with any data for use in examples
+|  |--layouts          // This is where all templates go
+|  |  |--partials      // This is where includes live
+|  |  |--index.html    // The index page
+|  |--static           // Files in here ends up in the public folder
+|--src                 // Files that will pass through the asset pipeline
+|  |--css              // CSS files in the root of this folder will end up in /css/...
+|  |--js               // app.js will be compiled to /js/app.js with babel
+```
+## CMS
 
-We use GitHub Issues as the official bug tracker for the **Kross Theme**. Please Search [existing issues](https://github.com/themefisher/kross-hugo-portfolio-template/issues). It’s possible someone has already reported the same problem.
-If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/kross-hugo-portfolio-template/issues/new)
+### How it works
 
-## Technical Support or Questions
+Netlify CMS is a single-page app that you pull into the `/admin` part of your site.
 
-If you have questions or need help integrating the product please [contact us](mailto:themefisher@gmail.com) instead of opening an issue.
+It presents a clean UI for editing content stored in a Git repository.
 
-## Licensing
+You setup a YAML config to describe the content model of your site, and typically
+tweak the main layout of the CMS a bit to fit your own site.
 
-- Copyright 2019 Themefisher (https://themefisher.com/)
-- Licensed under MIT (https://github.com/themefisher/kross-hugo-portfolio-template/blob/master/LICENSE)
+### Setup GitHub as a Backend
 
+In the `config.yml` file [change the GitHub owner and repo](https://github.com/bdougie/strata-cms-template/blob/master/site/static/admin/config.yml#L3) to reflect your repo:
 
-## Premium Themes
+```yaml
+backend:
+  name: github
+  repo: owner/repo # Path to your Github repository
+  branch: master # Branch to update (master by default)
+  
+  ...
+```
+When a user navigates to `/admin` she'll be prompted to login, and once authenticated
+she'll be able to create new content or edit existing content.
+The default Github-based authenticator integrates with Netlify's [Authentication Provider feature](https://www.netlify.com/docs/authentication-providers) and the repository
+backend integrates directly with Github's API.
 
-| [![Biztrox](https://user-images.githubusercontent.com/37659754/54068875-6ab26e80-427b-11e9-876e-4670bdacb975.png)](https://themefisher.com/products/biztrox-hugo-template/)  | [![Bexer](https://user-images.githubusercontent.com/37659754/54068892-84ec4c80-427b-11e9-9952-5d455c259145.png)](https://themefisher.com/products/bexer-hugo-theme/) | [![Small Apps](https://user-images.githubusercontent.com/37659754/54068897-96cdef80-427b-11e9-8fd4-2a5b83cea6d0.png)](https://themefisher.com/products/small-apps-hugo-app-landing-theme/) |
-|:---:|:---:|:---:|
-| **Biztrox**  | **Bexer**  | **Small Apps**  |
-| [![Dtox](https://user-images.githubusercontent.com/37659754/54068836-07284100-427b-11e9-8ff2-48eec3220a26.png)](https://themefisher.com/products/dtox-hugo-theme/) | [![Agico](https://user-images.githubusercontent.com/37659754/57753899-16aa8700-770f-11e9-9a3d-d3fc45313fbd.png)](https://themefisher.com/products/agico-hugo-theme/) | [![Airspace](https://user-images.githubusercontent.com/37659754/57754161-9d5f6400-770f-11e9-8a76-778fbb9910c4.png)](https://themefisher.com/products/airspace-hugo/) |
-| **Dtox** | **Agico** | **Airspace** |
+To get everything hooked up, setup continuous deployment from Github to Netlify
+and then follow [the documentation](https://www.netlify.com/docs/authentication-providers)
+to setup Github as an authentication provider.
+
+That's it, now you should be able to go to the `/admin` section of your site and
+log in.
+
+### Find out more and contribute
+
+Visit the [Netlify CMS](https://github.com/netlify/netlify-cms/) to find out more and contribute. 
+
+## Basic Concepts
+
+You can read more about Hugo's template language in their documentation here:
+
+https://gohugo.io/templates/overview/
+
+The most useful page there is the one about the available functions:
+
+https://gohugo.io/templates/functions/
+
+For assets that are completely static and don't need to go through the asset pipeline,
+use the `site/static` folder. Images, font-files, etc, all go there.
+
+Files in the static folder ends up in the web root. So a file called `site/static/favicon.ico`
+will end up being available as `/favicon.ico` and so on...
+
+The `src/js/app.js` file is the entrypoint for webpack and will be built to `/dist/app.js`.
+
+You can use ES6 and use both relative imports or import libraries from npm.
+
+Any CSS file directly under the `src/css/` folder will get compiled with [PostCSS Next](http://cssnext.io/)
+to `/dist/css/{filename}.css`. Import statements will be resolved as part of the build
+
+## Deploying to netlify
+
+- Push your clone to your own GitHub repository.
+- [Create a new site on Netlify](https://app.netlify.com/start) and link the repository.
+
+Now netlify will build and deploy your site whenever you push to git.
+
+##  Enjoy!!
+
+#### License
+
+[MIT](LICENSE)
