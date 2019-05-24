@@ -1,4 +1,4 @@
-baseURL = "https://kross.netlify.com"
+baseURL = "/"
 languageCode = "en-us"
 title = "Kross | Hugo Portfolio Template"
 theme = "unyo-theme"
