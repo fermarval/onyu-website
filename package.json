@@ -1,8 +1,8 @@
 {
-  "name": "johnmeguerian.com",
+  "name": "onyu.net",
   "version": "9.0",
-  "description": "john meguerian's personal site",
-  "author": "jmegs",
+  "description": "onyu studio",
+  "author": "Fernando Marmolejo",
   "license": "MIT",
   "devDependencies": {
     "postcss-cli": "^6.1.2",

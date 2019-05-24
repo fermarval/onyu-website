@@ -1,5 +1,5 @@
-languageCode = "en-us"
-title = "John Meguerian"
+languageCode = "es-es"
+title = "onyu studio"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 pygmentscodefences = true
