@@ -1,74 +1,30 @@
-baseURL = "https://kross.netlify.com"
+baseurl = "/"
 languageCode = "en-us"
-title = "Kross | Hugo Portfolio Template"
-theme = "kross-hugo"
-summaryLength = "10"
-
-# Plugins
-[params.plugins]
-
-  # CSS Plugins
-  [[params.plugins.css]]
-  URL = "plugins/bootstrap/bootstrap.min.css"
-  [[params.plugins.css]]
-  URL = "plugins/slick/slick.css"
-  [[params.plugins.css]]
-  URL = "plugins/themify-icons/themify-icons.css"
-
-  # JS Plugins
-  [[params.plugins.js]]
-  URL = "plugins/jQuery/jquery.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/bootstrap/bootstrap.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/slick/slick.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/shuffle/shuffle.min.js"
-
-
-  
-# navigation
-[menu]
-    
-  [[menu.main]]
-  name = "About"
-  URL = "about"
-  weight = 2
-  
-  [[menu.main]]
-  name = "Blog"
-  URL = "blog"
-  weight = 3
-  
-  [[menu.main]]
-  name = "Portfolio"
-  URL = "portfolio"
-  weight = 4
-  
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 5
-
+title = "Casper Theme"
+theme = "hugo-theme-casper"
+disqusShortname = "spf13"
+# Enable Google Analytics by inserting your tracking code
+googleAnalytics = ""
+# Define how many posts should appear on a site
+paginate = 10
+canonifyurls = true
 
 [params]
-logo = "images/logo.png"
-home = "Home"
-# Meta data
-description = "This is meta description"
-author = "Themefisher"
-# Google Analitycs
-googleAnalitycsID = "Your ID"
-
-  # Preloader
-  [params.preloader]
-  enable = true
-
-  [params.contact]
-  enable = true
-  formAction = "#" #contact form works with formspree.io
-
-  [params.footer]
-  email = "steve.fruits@email.com"
-  phone = "+880 2544 658 256"
-  address = "125/A, CA Commercial Area, California, USA"
+  description = "this is my description"
+  cover = "images/cover.jpg"
+  author = "Valère JEANTET"
+  authorlocation = "Paris, France"
+  authorwebsite = "http://vjeantet.fr"
+  bio= "my bio"
+  logo = "images/logo.png"
+  googleAnalyticsUserID = "UA-79101-12"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = "http://feeds.feedburner.com/..."
+  githubName = "vjeantet"
+  twitterName = "vjeantet"
+  # facebookName = ""
+  # linkedinName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+  [params.social]
+    twitter = "your_twitter"
