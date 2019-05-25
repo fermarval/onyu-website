@@ -1,4 +1,4 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Casper Theme"
-theme = "kross-hugo-portfolio"
+theme = "kross-hugo"
