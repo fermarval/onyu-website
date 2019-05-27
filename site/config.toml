@@ -1,5 +1,5 @@
 baseURL = "/"
-languageCode = "es-es"
+languageCode = "en-us"
 title = "onyu studio"
 theme = "onyu-theme"
 summaryLength = "10"
