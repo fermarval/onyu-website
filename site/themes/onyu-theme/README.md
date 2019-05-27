@@ -1,165 +1,69 @@
-# CASPER theme for hugo
+<div align="center">
+<h1><a>Kross Creative Portfolio Template (MIT License)</a></h1>
+<p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/70647bf629c186906fe00a617a50946bfaecd6aa/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f7468656d656669736865722f6b726f73732d6875676f2d706f7274666f6c696f2d74656d706c6174652e7376673f636f6c6f723d253232627269676874677265656e253232267374796c653d666c61742d737175617265"><img src="https://camo.githubusercontent.com/70647bf629c186906fe00a617a50946bfaecd6aa/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f7468656d656669736865722f6b726f73732d6875676f2d706f7274666f6c696f2d74656d706c6174652e7376673f636f6c6f723d253232627269676874677265656e253232267374796c653d666c61742d737175617265" alt="GitHub stars" data-canonical-src="https://img.shields.io/github/stars/themefisher/kross-hugo-portfolio-template.svg?color=%22brightgreen%22&amp;style=flat-square" style="max-width:100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/681bb16b34f1f1bd8f1f39a7eee31a977147c273/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f7468656d656669736865722f6b726f73732d6875676f2d706f7274666f6c696f2d74656d706c6174652e7376673f636f6c6f723d25323273756363657373253232267374796c653d666c61742d737175617265"><img src="https://camo.githubusercontent.com/681bb16b34f1f1bd8f1f39a7eee31a977147c273/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f7468656d656669736865722f6b726f73732d6875676f2d706f7274666f6c696f2d74656d706c6174652e7376673f636f6c6f723d25323273756363657373253232267374796c653d666c61742d737175617265" alt="GitHub forks" data-canonical-src="https://img.shields.io/github/forks/themefisher/kross-hugo-portfolio-template.svg?color=%22success%22&amp;style=flat-square" style="max-width:100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/5039397335b7dac7e7aecc23078acf9ca39e3385/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d636c6f7365642d7261772f7468656d656669736865722f6b726f73732d6875676f2d706f7274666f6c696f2d74656d706c6174652e7376673f636f6c6f723d2532326f72616e6765253232267374796c653d666c61742d737175617265"><img src="https://camo.githubusercontent.com/5039397335b7dac7e7aecc23078acf9ca39e3385/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d636c6f7365642d7261772f7468656d656669736865722f6b726f73732d6875676f2d706f7274666f6c696f2d74656d706c6174652e7376673f636f6c6f723d2532326f72616e6765253232267374796c653d666c61742d737175617265" alt="GitHub issues closed" data-canonical-src="https://img.shields.io/github/issues-closed-raw/themefisher/kross-hugo-portfolio-template.svg?color=%22orange%22&amp;style=flat-square" style="max-width:100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/6ca1c5219092f946929535f79cd0bc274c1499d4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d626c75652e7376673f267374796c653d666c61742d737175617265"><img src="https://camo.githubusercontent.com/6ca1c5219092f946929535f79cd0bc274c1499d4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d626c75652e7376673f267374796c653d666c61742d737175617265" alt="license" data-canonical-src="https://img.shields.io/badge/license-MIT-blue.svg?&amp;style=flat-square" style="max-width:100%;"></a></p>
+</div>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/37659754/58154256-00627500-7c93-11e9-90c1-c145cb396902.gif"  width="100%" alt="kross portfolio template by themefisher">
+</div>
+
+**Kross Portfolio Templates** - Kross is a creative, sleek and modern portfolio website template with a gorgeous appearance. It appears with an amazing, stunning graphics. The minimal interface with the necessary sections will surely help the visitors to get a thorough idea about your works.Put together beginners in mind, kross is very easy to use and built with a clean and valid international standard coding structure.
+
+## Table of Contents
+
+- [Demo](#demo)
+- [Quick Start](#quick-start)
+- [Plugins](#plugins)
+- [Reporting Issues](#reporting-issues)
+- [Technical Support or Questions](#technical-support-or-questions)
+- [Licensing](#licensing)
+- [More Hugo Themes](https://themefisher.com/hugo-themes/)
+
+## Demo
+
+| Homepage  | About  | Blog  | Portfolio  | Contact  |
+|---|---|---|---|---|
+| ![Homepage](https://user-images.githubusercontent.com/37659754/58154295-1a9c5300-7c93-11e9-992c-ad8d2ff8d99f.png) | ![About](https://user-images.githubusercontent.com/37659754/58154317-28ea6f00-7c93-11e9-914b-b7e5f1cdab0e.png) | ![Blog](https://user-images.githubusercontent.com/37659754/58154339-369ff480-7c93-11e9-9568-53b7ebdc6b2d.png) | ![portfolio](https://user-images.githubusercontent.com/37659754/58154368-491a2e00-7c93-11e9-8900-f5a6abe0a61d.png) | ![contact](https://user-images.githubusercontent.com/37659754/58154403-57684a00-7c93-11e9-9cea-ea28253a6f6a.png) |
+
+[Live Preview](https://themes.gohugo.io/theme/kross-hugo-portfolio-template/).
+
+## Quick Start
+Quick start options:
+
+- Clone the repo: `git clone https://github.com/themefisher/kross-hugo-portfolio-template.git`.
+- [Download from Github](https://github.com/themefisher/kross-hugo-portfolio-template/archive/master.zip).
+- [Download from themefisher website](https://themefisher.com/products/kross-creative-portfolio-template).
+
+## Plugins
+* Bootstrap - http://getbootstrap.com
+* Jquery - 	http://www.chartjs.org/
+* Shuffle - 	https://vestride.github.io/Shuffle/
+* slick slider - 	https://kenwheeler.github.io/slick/
+* Themify Icons - 	https://themify.me/themify-icons
 
 
-Casper is a single-column theme for [Hugo](http://gohugo.io/).
-Ported from [Casper theme for Ghost ](https://github.com/TryGhost/Casper)
+## Reporting Issues
 
-blog demo : http://vjeantet.fr
-blog source : https://github.com/vjeantet/vjeantet.fr
+We use GitHub Issues as the official bug tracker for the **Kross Theme**. Please Search [existing issues](https://github.com/themefisher/kross-hugo-portfolio-template/issues). It’s possible someone has already reported the same problem.
+If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/kross-hugo-portfolio-template/issues/new)
 
-![Hugo Casper Theme screenshot](https://raw.githubusercontent.com/vjeantet/hugo-theme-casper/master/images/screen.png)
+## Technical Support or Questions
 
-## Features
+If you have questions or need help integrating the product please [contact us](mailto:themefisher@gmail.com) instead of opening an issue.
 
-* Google Analytics (optional)
-* Disqus ( can disable comments by content)
-* Share buttons on Facebook, Twitter, Google (can disable share by content)
-* Big cover image (optional)
-* Custom cover by content (optional)
-* Tagging
-* Pagination
-* Menu
+## Licensing
 
-# Theme usage and asumptions
-* All blog posts are in the ```post``` folder (```content/post```)
-* The homepage displays a paginated list of contents from the post Section (other contents may be added to main menu, see bellow)
-
-# Installation
-
-## Installing this theme
-
-    mkdir themes
-    cd themes
-    git clone https://github.com/vjeantet/hugo-theme-casper casper
-
-## Build your website with this theme
-
-    hugo server -t casper
-
-# Configuration
-
-**config.toml**
-
-``` toml
-BaseUrl= "http://example.com/"
-LanguageCode= "fr-FR"
-Title= "My blog is awesome"
-paginate = 5
-DisqusShortname = "YOUR_SHORT_NAME_HERE"
-Copyright = "All rights reserved - 2015"
-canonifyurls = true
-
-[params]
-  description = "this is my description"
-  cover = "images/cover.jpg"
-  author = "Valère JEANTET"
-  authorlocation = "Paris, France"
-  authorwebsite = "http://vjeantet.fr"
-  bio= "my bio"
-  logo = "images/logo.png"
-  googleAnalyticsUserID = "UA-79101-12"
-  # Optional RSS-Link, if not provided it defaults to the standard index.xml
-  RSSLink = "http://feeds.feedburner.com/..."
-  githubName = "vjeantet"
-  twitterName = "vjeantet"
-  # facebookName = ""
-  # linkedinName = ""
-  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
-  hideHUGOSupport = false
-  [params.social]
-    twitter = "your_twitter"
-
-```
-
-Example : [config.toml](https://github.com/vjeantet/vjeantet.fr/blob/master/config.toml)
-
-## Multiple authors configuration
-
-In addition to providing data for a single author as shown in the example above, multiple authors
-can be configured via data/authors/\*.(yml, toml, json) entries. If the key provided in
-.Site.Params.author matched a data/authors/\* entry, it will be used as the default. Overrides
-per page can be done by a simple author = other_author_key entry in the front matter. For those
-pages where you want to omit the author block completely, a .Params.noauthor entry is also
-available.
-
-Example author definition file:
-
-``` yml
-name: John Doe
-bio: The most uninteresting man in the world.
-location: Normal, IL
-website: http://example.com
-thumbnail: images/john.png
-
-```
-
-Example override author per page file:
-``` toml
-+++
-author = ""
-date = "2014-07-11T10:54:24+02:00"
-title = ""
-...
-+++
-
-Contents here
-
-```
-
-## Menu configuration
-
-On top right of the screen, a "Subscribe" button is displayed with a link to the RSS feed.
-
-When you define a menu in the main config file, Then a menu button is displayed instead of the subscribe button
-When the use clicks the menu button, a sidebar appears and shows the subscribe button and all items defined in the main config file
-
-> :information_source: If your added a metadata like ```menu="main"``` in a content file metadata, it will also be displayed in the main menu
-
-Example of a menu definition in main config file.
+- Copyright 2019 Themefisher (https://themefisher.com/)
+- Licensed under MIT (https://github.com/themefisher/kross-hugo-portfolio-template/blob/master/LICENSE)
 
 
-``` toml
-[[menu.main]]
-  name = "My Blog"
-  weight = -120
-  identifier = "blog"
-  url = "/"
+## Premium Themes
 
-[[menu.main]]
-  name = "About me"
-  weight = -110
-  identifier = "about"
-  url = "/about"
-
-```
-
-## Metadata on each content file, example
-
-``` toml
-+++
-author = ""
-date = "2014-07-11T10:54:24+02:00"
-draft = false
-title = "dotScale 2014 as a sketch"
-slug = "dotscale-2014-as-a-sketch"
-tags = ["event","dotScale","sketchnote"]
-image = "images/2014/Jul/titledotscale.png"
-comments = true     # set false to hide Disqus comments
-share = true        # set false to share buttons
-menu = ""           # set "main" to add this content to the main menu
-+++
-
-Contents here
-```
-
-## Create new content based with default metadata from this theme
-You can easyly create a new content with all metadatas used by this theme, using this command
-```
-hugo new -t casper post/my-post.md
-```
-
-# Contact me
-
-:beetle: open an issue in github
-
-:bird: [https://twitter.com/vjeantet](https://twitter.com/vjeantet)
+| [![Biztrox](https://user-images.githubusercontent.com/37659754/54068875-6ab26e80-427b-11e9-876e-4670bdacb975.png)](https://themefisher.com/products/biztrox-hugo-template/)  | [![Bexer](https://user-images.githubusercontent.com/37659754/54068892-84ec4c80-427b-11e9-9952-5d455c259145.png)](https://themefisher.com/products/bexer-hugo-theme/) | [![Small Apps](https://user-images.githubusercontent.com/37659754/54068897-96cdef80-427b-11e9-8fd4-2a5b83cea6d0.png)](https://themefisher.com/products/small-apps-hugo-app-landing-theme/) |
+|:---:|:---:|:---:|
+| **Biztrox**  | **Bexer**  | **Small Apps**  |
+| [![Dtox](https://user-images.githubusercontent.com/37659754/54068836-07284100-427b-11e9-8ff2-48eec3220a26.png)](https://themefisher.com/products/dtox-hugo-theme/) | [![Agico](https://user-images.githubusercontent.com/37659754/57753899-16aa8700-770f-11e9-9a3d-d3fc45313fbd.png)](https://themefisher.com/products/agico-hugo-theme/) | [![Airspace](https://user-images.githubusercontent.com/37659754/57754161-9d5f6400-770f-11e9-8a76-778fbb9910c4.png)](https://themefisher.com/products/airspace-hugo/) |
+| **Dtox** | **Agico** | **Airspace** |

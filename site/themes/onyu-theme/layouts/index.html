@@ -1,114 +1,275 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 
-{{if .Site.Params.cover}}
-{{if or (eq (substr .Site.Params.cover 0 7) "http://") (eq (substr .Site.Params.cover 0 8) "https://")}}
-  <header class="main-header" style="background-image: url({{.Site.Params.cover}})">
-  {{ else }}
-  <header class="main-header" style="background-image: url({{.Site.BaseURL}}{{.Site.Params.cover}})">
+  <!-- hero area -->
+  <section class="hero-area bg-primary" id="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-11 mx-auto">
+          <h1 class="text-white font-tertiary">{{ .Site.Data.homepage.banner.title | safeHTML }}</h1>
+        </div>
+      </div>
+    </div>
+    <div class="layer-bg w-100">
+      <img class="img-fluid w-100" src="{{`images/illustrations/leaf-bg.png` | relURL}}" alt="bg-shape">
+    </div>
+    <div class="layer" id="l2">
+      <img src="{{`images/illustrations/dots-cyan.png` | relURL}}" alt="bg-shape">
+    </div>
+    <div class="layer" id="l3">
+      <img src="{{`images/illustrations/leaf-orange.png` | relURL}}" alt="bg-shape">
+    </div>
+    <div class="layer" id="l4">
+      <img src="{{`images/illustrations/dots-orange.png` | relURL}}" alt="bg-shape">
+    </div>
+    <div class="layer" id="l5">
+      <img src="{{`images/illustrations/leaf-yellow.png` | relURL}}" alt="bg-shape">
+    </div>
+    <div class="layer" id="l6">
+      <img src="{{`images/illustrations/leaf-cyan.png` | relURL}}" alt="bg-shape">
+    </div>
+    <div class="layer" id="l7">
+      <img src="{{`images/illustrations/dots-group-orange.png` | relURL}}" alt="bg-shape">
+    </div>
+    <div class="layer" id="l8">
+      <img src="{{`images/illustrations/leaf-pink-round.png` | relURL}}" alt="bg-shape">
+    </div>
+    <div class="layer" id="l9">
+      <img src="{{`images/illustrations/leaf-cyan-2.png` | relURL}}" alt="bg-shape">
+    </div>
+    <!-- social icon -->
+    <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
+      {{ range .Site.Data.homepage.banner.socialLinks }}
+      <li class="mb-3"><a class="text-white" href="{{.URL}}"><i class="{{.icon}}"></i></a></li>
+      {{ end }}
+    </ul>
+    <!-- /social icon -->
+  </section>
+  <!-- /hero area -->
+
+  {{ if .Site.Data.homepage.about.enable }}
+  <!-- about -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto text-center">
+          {{ with .Site.Data.homepage.about }}
+          <p class="font-secondary lead text-dark">{{.content | markdownify}}</p>
+          {{ with .button }}
+          <a href="{{ .URL | absURL }}" class="btn btn-transparent">{{.btnText}}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /about -->
   {{ end }}
-{{else}}
-<header class="main-header no-cover">
-{{end}}
 
-    <nav class="main-nav overlay clearfix">
-        {{ if .Site.Params.logo }}
-            <a class="blog-logo" href="{{ .Permalink }}"><img src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" alt="Blog Logo" /></a>
-        {{end}}
-        {{ if .Site.Menus.main }}
-            <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
-        {{else}}
-            {{ if .Site.Params.RSSLink}}
-              <a class="menu-button icon-feed" href="{{.Site.Params.RSSLink }}">&nbsp;&nbsp;Subscribe</a>
-            {{else}}
-              <a class="menu-button icon-feed" href="{{ .RSSLink }}">&nbsp;&nbsp;Subscribe</a>
-            {{end}}
-        {{end}}
-    </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            {{ if .Site.Params.linkedinName }}
-                <a class="bloglogo" href="https://www.linkedin.com/in/{{ .Site.Params.linkedinName }}" target="_blank">
-                    <span class="icon-linkedin" style="color:white;font-size:2em"></span>
-                </a>
-            &nbsp;
-            {{end}}
-            {{ if .Site.Params.githubName }}
-                <a class="bloglogo" href="https://github.com/{{ .Site.Params.githubName }}" target="_blank">
-                <span class="icon-github" style="color:white;font-size:2em"></span>
-                </a>
-            &nbsp;
-            {{end}}
-            {{ if .Site.Params.twitterName }}
-                <a class="bloglogo" href="https://twitter.com/{{ .Site.Params.twitterName }}" target="_blank">
-                    <span class="icon-twitter" style="color:white;font-size:2em"></span>
-                </a>
-            &nbsp;
-            {{end}}
-            {{ if .Site.Params.facebookName }}
-                <a class="bloglogo" href="https://www.facebook.com/{{ .Site.Params.facebookName }}" target="_blank">
-                    <span class="icon-facebook" style="color:white;font-size:2em"></span>
-                </a>
-            &nbsp;
-            {{end}}
-            {{ if .Site.Params.instagramName }}
-                <a class="bloglogo" href="https://instagram.com/{{ .Site.Params.instagramName }}" target="_blank">
-                    <span class="icon-instagram" style="color:white;font-size:2em"></span>
-                </a>
-            &nbsp;
-            {{end}}
-            {{ if .Site.Params.pinterestName }}
-                <a class="bloglogo" href="https://www.pinterest.com/{{ .Site.Params.pinterestName }}" target="_blank">
-                    <span class="icon-pinterest" style="color:white;font-size:2em"></span>
-                </a>
-            &nbsp;
-            {{end}}
-            {{ if .Site.Params.googlePlusName }}
-                <a class="bloglogo" href="https://google.com/+{{ .Site.Params.googlePlusName }}" target="_blank">
-                    <span class="icon-google-plus" style="color:white;font-size:2em"></span>
-                </a>
-            &nbsp;
-            {{end}}
 
-            <h1 class="page-title">{{ .Site.Title }}</h1>
-            <h2 class="page-description">{{ .Site.Params.description }}</h2>
+  {{ if .Site.Data.homepage.skill.enable }}
+  <!-- skills -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-title">Skills</h2>
         </div>
-    </div>
-    <a class="scroll-down icon-arrow-left" href="#content"><span class="hidden">Scroll Down</span></a>
-</header>
-
-
-<main id="content" class="content" role="main">
-
-    {{ range .Data.Pages }}
-        {{if eq .Type "index" }}
-        <div class="index-content post">
-        {{.Content}}
+        {{ range .Site.Data.homepage.skill.skillbar }}
+        <div class="col-lg-3 col-sm-6 mb-4">
+          <div class="card shadow text-center">
+            <div class="position-relative rounded-top progress-wrapper" data-color="{{.color}}">
+              <div class="wave" data-progress="{{.progress}}"></div>
+            </div>
+            <div class="card-footer bg-white">
+              <h4 class="card-title">{{.title }} ({{.progress}})</h4>
+            </div>
+          </div>
         </div>
-        {{end}}
-    {{ end }}
-
-    {{ if not ($.Scratch.Get "paginatedSections") }}
-        {{ if isset .Site.Params "paginatedSections" }}
-            {{ $.Scratch.Set "paginatedSections" .Site.Params.paginatedSections }}
-        {{ else }}
-            {{ $.Scratch.Set "paginatedSections" "post" }}
         {{ end }}
-    {{ end }}
-
-    {{ $list := where .Data.Pages "Section" "in" ($.Scratch.Get "paginatedSections") }}
-    {{ $list := where $list "Section" "!=" "" }}
-    {{ $paginator := .Paginate ( $list ) }}
-
-    <div class="extra-pagination inner">
-        {{ partial "pagination.html" $paginator }}
+      </div>
     </div>
+  </section>
+  <!-- /skills -->
+  {{ end }}
 
-    {{ range $index, $page := $paginator.Pages }}
-        {{ partial "li.html" . }}
-    {{ end }}
+  {{ if .Site.Data.homepage.experience.enable }}
+  <!-- experience -->
+  <section class="section">
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-title">Experience</h2>
+        </div>
+        {{ range .Site.Data.homepage.experience.item }}
+        <div class="col-lg-3 col-md-4 text-center">
+          <img src="{{.logo}}" alt="icon">
+          <p class="mb-0">{{.duration}}</p>
+          <h4>{{.title }}</h4>
+          <h6 class="text-light">{{.company }}</h6>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  <!-- ./experience -->
+  {{ end }}
 
-    {{ partial "pagination.html" $paginator }}
+  {{ if .Site.Data.homepage.education.enable }}
+  <!-- education -->
+  <section class="section position-relative">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-title">Education</h2>
+        </div>
+        {{ range .Site.Data.homepage.education.item }}
+        <div class="col-lg-6 col-md-6 mb-80">
+          <div class="d-flex">
+            <div class="mr-lg-5 mr-3">
+              <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+            </div>
+            <div>
+              <p class="text-dark mb-1">{{.year}}</p>
+              <h4>{{ .title }}</h4>
+              <p class="mb-0 text-light">{{.academy}}</p>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <!-- bg image -->
+    <img class="img-fluid edu-bg-image w-100" src="{{`images/backgrounds/education-bg.png`|relURL}}" alt="bg-image">
+  </section>
+  <!-- /education -->
+  {{ end }}
 
-</main>
 
-{{ partial "footer.html" . }}
+  {{ if .Site.Data.homepage.service.enable }}
+  <!-- services -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">Services</h2>
+        </div>
+        {{ range .Site.Data.homepage.service.item }}
+        <div class="col-md-4 mb-4">
+          <div class="card {{if .highlighted }} active-bg-primary {{end}} hover-shadow shadow">
+            <div class="card-body text-center px-4 py-5">
+              <i class="{{.icon }} icon mb-5 d-inline-block"></i>
+              <h4 class="mb-4">{{.title}}</h4>
+              <p>{{.content | markdownify}}</p>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  <!-- /services -->
+  {{ end }}
+
+
+  {{ if .Site.Data.homepage.portfolio.enable }}
+  <!-- portfolio -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">Portfolio</h2>
+        </div>
+      </div>
+      <div class="row shuffle-wrapper">
+        {{ range .Site.Data.homepage.portfolio.item }}
+        <div class="col-lg-4 col-6 mb-4 shuffle-item">
+          <div class="position-relative rounded hover-wrapper">
+            <img src="{{.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <div class="hover-overlay">
+              <div class="hover-content">
+                <a class="btn btn-light btn-sm" href="{{ .projectURL }}">view project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  <!-- /portfolio -->
+  {{ end }}
+
+
+  {{ if .Site.Data.homepage.testimonial.enable }}
+  <!-- testimonial -->
+  <section class="section bg-primary position-relative testimonial-bg-shapes">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title text-white mb-5">Testimonials</h2>
+        </div>
+        <div class="col-lg-10 mx-auto testimonial-slider">
+          {{ range .Site.Data.homepage.testimonial.item }}
+          <!-- slider-item -->
+          <div class="text-center testimonial-content">
+            <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+            <p class="text-white mb-4">{{.content | markdownify}}</p>
+            <img class="img-fluid rounded-circle mb-4 d-inline-block" src="{{.image | absURL }}" alt="client-image">
+            <h4 class="text-white">{{.name }}</h4>
+            <h6 class="text-light mb-4">{{ .designation }}</h6>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    <!-- bg shapes -->
+    <img src="{{`images/backgrounds/map.png` | relURL }}" alt="map" class="img-fluid bg-map">
+    <img src="{{`images/illustrations/dots-group-v.png` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-1">
+    <img src="{{`images/illustrations/leaf-orange.png` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-2">
+    <img src="{{`images/illustrations/dots-group-sm.png` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-3">
+    <img src="{{`images/illustrations/leaf-pink-round.png` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-4">
+    <img src="{{`images/illustrations/leaf-cyan.png` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-5">
+  </section>
+  <!-- /testimonial -->
+  {{ end }}
+
+
+  {{ if .Site.Data.homepage.clientSlider.enable }}
+  <!-- client logo slider -->
+  <section class="section pb-0">
+    <div class="container">
+      {{ partial "client-slider.html" . }}
+    </div>
+  </section>
+  <!-- /client logo slider -->
+  {{ end }}
+
+  {{ if .Site.Data.homepage.blog.enable }}
+  <!-- blog -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">Blogs</h2>
+        </div>
+        {{ range first 3 .Data.Pages }}
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <article class="card shadow">
+            <img class="rounded card-img-top" src="{{.Params.Image | absURL}}" alt="post-thumb">
+            <div class="card-body">
+              <h4 class="card-title"><a class="text-dark" href="{{.Permalink}}">{{.Title }}</a>
+              </h4>
+              <p class="cars-text">{{.Summary}}</p>
+              <a href="{{.Permalink}}" class="btn btn-xs btn-primary">Read More</a>
+            </div>
+          </article>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  <!-- /blog -->
+  {{ end }}
+
+
+{{ end }}

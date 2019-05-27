@@ -1,7 +1,7 @@
-baseURL = "https://kross.netlify.com"
-languageCode = "en-us"
-title = "Kross | Hugo Portfolio Template"
-theme = "kross-hugo"
+baseURL = "/"
+languageCode = "es-es"
+title = "onyu studio"
+theme = "onyu-theme"
 summaryLength = "10"
 
 # Plugins
