@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "onyu studio"
-theme = "onyu-theme"
+theme = "kross-hugo"
 summaryLength = "10"
 
 # Plugins
