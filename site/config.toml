@@ -58,7 +58,7 @@ theme = "hugo-elate-theme"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Develop"
+    title = "Desarrollo"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     url = "#"
     button = "Click Me"
@@ -66,7 +66,7 @@ theme = "hugo-elate-theme"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "Launch"
+    title = "Lanzamiento"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     url = "#"
     button = "Why us?"
@@ -83,7 +83,7 @@ theme = "hugo-elate-theme"
   # Work section
   [params.work]
     enable = true
-    title = "Work"
+    title = "Trabajos"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
@@ -182,8 +182,8 @@ theme = "hugo-elate-theme"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
+      name = "Carl Smith"
+      position = "Designer"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "person1.jpg"
       alt = "Person1"
@@ -194,7 +194,7 @@ theme = "hugo-elate-theme"
       ]
 
     [[params.about.item]]
-      name = "Rob Smith"
+      name = "Ferran Smith"
       position = "Web Developer"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "person2.jpg"
@@ -203,19 +203,7 @@ theme = "hugo-elate-theme"
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
         ["icon-github", "#"]
-      ]
-
-    [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
-      alt = "Person3"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
-      ]      
+      ] 
 
   # Counters section
   [params.counters]
@@ -265,10 +253,8 @@ theme = "hugo-elate-theme"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-phone", "696 69 69 69 - 676 67 67 67"],
+        ["icon-envelope", "hola@onyu.net"],
       ]
 
     name = "Name"
@@ -280,9 +266,7 @@ theme = "hugo-elate-theme"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    copyright = '&copy; 2019 - onyu STUDIO'
     links = [
-        ["icon-twitter", "#twitter"],
-        ["icon-facebook", "#facebook"],
-        ["icon-youtube", "#youtube"]
+        ["icon-instagram", "https://instagram.com/onyustudio"]
       ]
