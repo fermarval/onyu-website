@@ -16,7 +16,7 @@ function initMap() {
       //iconUrl: "images/map-loc.png",
       //iconSize:     [57, 66],
     });
-    L.marker(latLong1, { icon: icon }).addTo(map1);
-    L.marker(latLong2, { icon: icon }).addTo(map2);
+    var marker = L.marker(latLong1, { icon: icon }).addTo(map1);
+    //L.marker(latLong2, { icon: icon }).addTo(map2);
 }
 document.addEventListener("DOMContentLoaded", initMap);
