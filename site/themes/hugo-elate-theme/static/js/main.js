@@ -512,7 +512,7 @@ var draw = function() {
     var p = particles[t];
     var nowX = p.r + mouse.x / 4.6;
     var nowY = p.r + mouse.y / 4.6;
-    var color = '#d35400';
+    var color = '#fff';
     
     if(p.r < 10) {
       nowX = p.x + mouse.x / 0.5;
