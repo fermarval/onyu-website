@@ -504,7 +504,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-intro .fh5co-block > .overlay-darker {
   z-index: 8;
   opacity: .5;
-  background: #474747;
+  background: #6b10c7;
   position: absolute;
   left: 0;
   right: 0;
@@ -1016,7 +1016,7 @@ h1, h2, h3, h4, h5, h6 {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #52d3aa;
+  border-color: #207dff;
 }
 
 .btn {
@@ -1072,7 +1072,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 80px;
   height: 2px;
-  background: #52d3aa;
+  background: #207dff;
   left: 0%;
   margin-left: 0px;
   bottom: 0;
@@ -1083,7 +1083,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 80px;
   height: 2px;
-  background: #52d3aa;
+  background: #207dff;
   left: 50%;
   margin-left: -40px;
   bottom: 0;
@@ -1118,7 +1118,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 .fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
-  background: #52d3aa;
+  background: #207dff;
 }
 .fh5co-nav-toggle:hover, .fh5co-nav-toggle:focus, .fh5co-nav-toggle:active {
   outline: none;
@@ -1132,18 +1132,18 @@ h1, h2, h3, h4, h5, h6 {
   *display: inline;
   width: 25px;
   height: 3px;
-  color: #52d3aa;
+  color: #207dff;
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #52d3aa;
+  background: #207dff;
   transition: all .2s ease-out;
 }
 .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
   content: '';
   width: 25px;
   height: 3px;
-  background: #52d3aa;
+  background: #207dff;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
@@ -1252,7 +1252,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #52d3aa;
+  background: #207dff;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
