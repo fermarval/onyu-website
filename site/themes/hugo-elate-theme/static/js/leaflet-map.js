@@ -8,7 +8,7 @@ function initMap() {
     L.tileLayer("https://b.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
       maxZoom: 18,
-    }).addTo(map);
+    }).addTo(map1);
 
     var icon = L.icon({
       iconUrl: "images/map-marker.png",
