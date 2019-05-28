@@ -1409,3 +1409,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/*HERO ANIMATION */
+canvas {
+  background-color: #151B1F; 
+}
+
+.iose {
+  width: 135px; 
+  height: 45px; 
+  background-color: lightgray; 
+  top: 0px; 
+  right: 0px; 
+  position: fixed; 
+  line-height: 22px; 
+  font-size: 20px; 
+  padding: 10px; 
+  border-bottom-left-radius: 10px; 
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', Roboto, Arial, Sans-serif; 
+  color: #151B1F; 
+}
+
+a {
+  color: #1abc9c; 
+}
