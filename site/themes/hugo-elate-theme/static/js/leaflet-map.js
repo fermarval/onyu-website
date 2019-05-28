@@ -1,5 +1,6 @@
 function initMap() {
-    var latLong = [37.37550, -5.990026]; // Wiesbaden
+    var latLong1 = [37.375433, -5.990077]; // Wiesbaden
+    var latLong2 = [39.407899, -0.431551]; // Wiesbaden
 
     var map = L.map("map").setView(latLong, 5);
 
@@ -14,6 +15,8 @@ function initMap() {
       //iconUrl: "images/map-loc.png",
       //iconSize:     [57, 66],
     });
-    var marker = L.marker(latLong, { icon: icon }).addTo(map);
+    var marker1 = L.marker(latLong1, { icon: icon }).addTo(map);
+    var marker2 = L.marker(latLong2, { icon: icon }).addTo(map);
+
 }
 document.addEventListener("DOMContentLoaded", initMap);
