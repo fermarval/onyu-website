@@ -21,6 +21,7 @@ theme = "hugo-elate-theme"
     brand = "onyu"
     home = "Home"
     work = "Trabajos"
+    prices = "Planes"
     services = "Servicios"
     about = "Nosotros"
     contact = "Contacto"
@@ -129,7 +130,7 @@ theme = "hugo-elate-theme"
     title = Planes
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
-    [[params.intro.item]]
+    [[params.prices.item]]
     title = "Plan 1"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     url = "#"
@@ -137,7 +138,7 @@ theme = "hugo-elate-theme"
     icon = "icon-rocket"
     img = "img_10.jpg"
 
-    [[params.intro.item]]
+    [[params.prices.item]]
     title = "Plan 2"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     url = "#"
@@ -145,7 +146,7 @@ theme = "hugo-elate-theme"
     icon = "icon-rocket"
     img = "img_10.jpg"
 
-    [[params.intro.item]]
+    [[params.prices.item]]
     title = "Plan 3"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     url = "#"
