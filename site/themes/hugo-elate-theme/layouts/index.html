@@ -18,6 +18,10 @@
        		{{ partial "work.html" .}}
        	{{ end }}
 
+        {{ if .Site.Params.prices.enable }}
+            {{ partial "prices.html" .}}
+        {{ end }}
+
 		{{ if .Site.Params.testimonials.enable }}
         	{{ partial "testimonials.html" .}}
 		{{ end }}
