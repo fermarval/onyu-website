@@ -13,12 +13,18 @@
 			<div class="row">
 			{{ range .Site.Params.prices.item }}
 				<div class="col-md-4">
-					<div class="fh5co-text">
-						<i class="fh5co-intro-icon {{ .icon }}"></i>
-						<h2>{{ .title }}</h2>
-						<p>{{ .description }}</p>
+					<div class="single-pricing-box">
+						<h3>{{ .title }}</h3>
+						<div class="pricing-icon">
+							<i class="fa fa-bullhorn"></i>
+						</div>
+						<div class="pricing-list">
+							<ul>
+								<li>{{ .description }}</li>
+							</ul>
+						</div>
 						{{ if .button}}
-						<p><a href="{{ .url }}" class="btn btn-primary">{{ .button}}</a></p>
+						<a href="" class="bordered-btn">{{ .button}}</a>
 						{{ end }}
 					</div>
 				</div>

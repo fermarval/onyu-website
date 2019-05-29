@@ -1410,7 +1410,93 @@ h1, h2, h3, h4, h5, h6 {
 
 /*# sourceMappingURL=style.css.map */
 
-/*HERO ANIMATION */
-canvas {
-  /*background-color: #151B1F; */
+.section-title p {
+  font-size: 17px;
 }
+
+.single-pricing-box {
+    border: 2px solid #D6DDD9;
+    padding: 20px;
+    text-align: center;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+.single-pricing-box:hover{
+    border-color: #9b59b6;
+    box-shadow: 0 0 30px #f1f1f1;
+}
+
+.single-pricing-box h3 {
+    background: #ddd none repeat scroll 0 0;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.pricing-icon {
+    font-size: 60px;
+    margin-bottom: 20px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.single-pricing-box:hover .pricing-icon {
+	color: #9b59b6;
+}
+
+.pricing-list {
+    margin-bottom: 25px;
+    text-align: left;
+}
+.pricing-list ul {
+    line-height: 26px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0 0 0 16px;
+}
+
+.pricing-list ul li{
+    font-size: 15px;
+    -webkit-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+
+.pricing-list ul li:hover{
+    padding-left: 5px;
+}
+
+.pricing-list ul li:before{
+    font-family: fontAwesome;
+    content: "\f00c";
+    color: #9b59b6;
+    padding-right: 8px;
+}
+
+.pricing-list ul li.off:before{
+    content: "\f00d";
+    color: red;
+}
+
+.single-pricing-box h3.pricing-count {
+    text-transform: none;
+}
+a.bordered-btn {
+    border: 1px solid #ddd;
+    color: #333;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+a.bordered-btn:hover{
+    background: #9b59b6;
+    color: #fff;
+    border-color: #9b59b6;
+}
+
+
