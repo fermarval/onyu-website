@@ -2,7 +2,7 @@
 baseurl = "/"
 title = "Rapoo- It solutions &amp; Corporate template"
 languageCode = "en-us"
-theme = "hugo-theme-rappo"
+theme = "hugo-elate-rappo"
 
 [params]
 
