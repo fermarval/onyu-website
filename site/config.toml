@@ -47,24 +47,53 @@ theme = "hugo-theme-rappo"
 
   [[params.pricing.item]]
     title = "The right advice"
-    price = "<small>$</small>13<span>monthly</span>"
-    features = "<li>Unlimited Domain</li><li>Unmetered Bandwidth</li><li>Free SSL Certificate </li><li>20 Email Subscription</li><li>SSD Hosting</li>"
+    price = '<small>$</small>13<span>monthly</span>'
+    features = '<li>Unlimited Domain</li><li>Unmetered Bandwidth</li><li>Free SSL Certificate </li><li>20 Email Subscription</li><li>SSD Hosting</li>'
     button = "Purchase Now"
     link = "#"
 
   [[params.pricing.item]]
     title = "The right advice"
-    price = "<small>$</small>13<span>monthly</span>"
-    features = "<li>Unlimited Domain</li><li>Unmetered Bandwidth</li><li>Free SSL Certificate </li><li>20 Email Subscription</li><li>SSD Hosting</li>"
+    price = '<small>$</small>13<span>monthly</span>'
+    features = '<li>Unlimited Domain</li><li>Unmetered Bandwidth</li><li>Free SSL Certificate </li><li>20 Email Subscription</li><li>SSD Hosting</li>'
     button = "Purchase Now"
     link = "#"
 
   [[params.pricing.item]]
     title = "The right advice"
-    price = "<small>$</small>13<span>monthly</span>"
-    features = "<li>Unlimited Domain</li><li>Unmetered Bandwidth</li><li>Free SSL Certificate </li><li>20 Email Subscription</li><li>SSD Hosting</li>"
+    price = '<small>$</small>13<span>monthly</span>'
+    features = '<li>Unlimited Domain</li><li>Unmetered Bandwidth</li><li>Free SSL Certificate </li><li>20 Email Subscription</li><li>SSD Hosting</li>'
     button = "Purchase Now"
     link = "#"
+
+  # Contact section
+  [params.projects]
+    enable = false
+    text1 = "We are trying to deliver 100% quality product and success their business to achieve ultimate goal."
+    text2 = "We are providing best service since 1990 to present , committed to best service delivery"
+    text3 = "Nullam metus enim, placerat in lacus vel, porttitor egestas libero. Etiam ex risus, feugiat eget accumsan eu, sagittis eu urna. In eget ultrices metus. Nunc accumsan "
+    feature_img = "img/bg/banner_bg.jpg"
+    feature_top = "Do you know who we are?"
+    feature_title = "More than just service your products..."
+    feature_text = "Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and we will give you a complete account of the system."
+
+  [[params.projects.item]]
+    title = "The right advice"
+    image = "img/projects/p-1.jpg"
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi consequuntur veniam quod"
+
+  [[params.projects.item]]
+    title = "The right advice"
+    image = "img/projects/p-1.jpg"
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi consequuntur veniam quod"
+
+  [[params.projects.item]]
+    title = "The right advice"
+    image = "img/projects/p-1.jpg"
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi consequuntur veniam quod"
+
+  
+
 
   # Contact section
   [params.contact]
