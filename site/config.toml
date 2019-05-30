@@ -48,21 +48,21 @@ theme = "hugo-theme-rappo"
   [[params.pricing.item]]
     title = "The right advice"
     price = "<small>$</small>13<span>monthly</span>"
-    fretures = "<li>Unlimited Domain</li><li>Unmetered Bandwidth</li><li>Free SSL Certificate </li><li>20 Email Subscription</li><li>SSD Hosting</li>"
+    features = "<li>Unlimited Domain</li><li>Unmetered Bandwidth</li><li>Free SSL Certificate </li><li>20 Email Subscription</li><li>SSD Hosting</li>"
     button = "Purchase Now"
     link = "#"
 
   [[params.pricing.item]]
     title = "The right advice"
     price = "<small>$</small>13<span>monthly</span>"
-    fretures = "<li>Unlimited Domain</li><li>Unmetered Bandwidth</li><li>Free SSL Certificate </li><li>20 Email Subscription</li><li>SSD Hosting</li>"
+    features = "<li>Unlimited Domain</li><li>Unmetered Bandwidth</li><li>Free SSL Certificate </li><li>20 Email Subscription</li><li>SSD Hosting</li>"
     button = "Purchase Now"
     link = "#"
 
   [[params.pricing.item]]
     title = "The right advice"
     price = "<small>$</small>13<span>monthly</span>"
-    fretures = "<li>Unlimited Domain</li><li>Unmetered Bandwidth</li><li>Free SSL Certificate </li><li>20 Email Subscription</li><li>SSD Hosting</li>"
+    features = "<li>Unlimited Domain</li><li>Unmetered Bandwidth</li><li>Free SSL Certificate </li><li>20 Email Subscription</li><li>SSD Hosting</li>"
     button = "Purchase Now"
     link = "#"
 

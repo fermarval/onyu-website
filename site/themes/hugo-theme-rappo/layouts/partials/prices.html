@@ -25,11 +25,11 @@
                     <div class="pricing-box">
                        <h3>{{ .title }}</h3>
                         <div class="price-block">
-                             <h2>{{ .price }}</h2>
+                             <h2>{{ with .price }}{{ . | markdownify }}{{ end }}</h2>
                         </div>
 
                         <ul class="price-features list-unstyled">
-                            {{ .fretures }}
+                            {{ with .features }}{{ . | markdownify }}{{ end }}
                         </ul>
 
                         <a href="{{ .link }}" class="btn btn-outline-dark btn-circled">{{ .button }}</a>
