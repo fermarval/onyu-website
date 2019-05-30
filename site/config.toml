@@ -36,14 +36,35 @@ theme = "hugo-theme-rappo"
   # Services section
   [params.services]
     enable = false
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Affordable Price Plan"
+    description = "Rapoo can be used to create anything from a small marketing page to a sophisticated website."
 
   # Pricing section
   [params.pricing]
-    enable = false
+    enable = true
     title = "Pricing"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+  [[params.pricing.item]]
+    title = "The right advice"
+    price = "<small>$</small>13<span>monthly</span>"
+    fretures = "<li>Unlimited Domain</li><li>Unmetered Bandwidth</li><li>Free SSL Certificate </li><li>20 Email Subscription</li><li>SSD Hosting</li>"
+    button = "Purchase Now"
+    link = "#"
+
+  [[params.pricing.item]]
+    title = "The right advice"
+    price = "<small>$</small>13<span>monthly</span>"
+    fretures = "<li>Unlimited Domain</li><li>Unmetered Bandwidth</li><li>Free SSL Certificate </li><li>20 Email Subscription</li><li>SSD Hosting</li>"
+    button = "Purchase Now"
+    link = "#"
+
+  [[params.pricing.item]]
+    title = "The right advice"
+    price = "<small>$</small>13<span>monthly</span>"
+    fretures = "<li>Unlimited Domain</li><li>Unmetered Bandwidth</li><li>Free SSL Certificate </li><li>20 Email Subscription</li><li>SSD Hosting</li>"
+    button = "Purchase Now"
+    link = "#"
 
   # Contact section
   [params.contact]

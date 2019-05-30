@@ -1,0 +1,41 @@
+<!-- Pricing
+    ================================================== -->
+    <section class="section" id="pricing">
+        <!-- Content -->
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6 text-center">
+                    <div class="section-heading">
+                        <!-- Heading -->
+                        <h2 class="section-title">
+                            {{ with .Site.Params.pricing.title }}{{ . | markdownify }}{{ end }}
+                        </h2>
+
+                        <!-- Subheading -->
+                        <p>
+                            {{ with .Site.Params.pricing.description }}{{ . | markdownify }}{{ end }}
+                        </p>
+                    </div>
+                </div>
+            </div> <!-- / .row -->
+
+            <div class="row justify-content-center">
+                {{ range .Site.Params.features.item }}
+                <div class="col-lg-4 col-sm-6 col-md-6">
+                    <div class="pricing-box">
+                       <h3>{{ .title }}</h3>
+                        <div class="price-block">
+                             <h2>{{ .price }}</h2>
+                        </div>
+
+                        <ul class="price-features list-unstyled">
+                            {{ .fretures }}
+                        </ul>
+
+                        <a href="{{ .link }}" class="btn btn-outline-dark btn-circled">{{ .button }}</a>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>
