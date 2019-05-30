@@ -1,0 +1,66 @@
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top site-navigation main-nav navbar-togglable">
+        <div class="container">
+            <a class="navbar-brand" href="index-4.html">
+                <h3>{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</h3>
+            </a>
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span>
+            </button>
+
+            <!-- Collapse -->
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <!-- Links -->
+                <ul class="navbar-nav ">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link js-scroll-trigger">
+                                {{ with .Site.Params.navigation.home }}{{ . | markdownify }}{{ end }}
+                            </a>
+                        </li>
+                        {{ if .Site.Params.about.enable }}
+                        <li class="nav-item ">
+                            <a href="#" class="nav-link js-scroll-trigger">
+                                {{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}
+                            </a>
+                        </li>
+                        {{ end }}
+
+                        {{ if .Site.Params.services.enable }}
+                        <li class="nav-item ">
+                            <a href="#" class="nav-link js-scroll-trigger">
+                                {{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}
+                            </a>
+                        </li>
+                        {{ end }}
+
+                        {{ if .Site.Params.pricing.enable }}
+                        <li class="nav-item ">
+                            <a href="#" class="nav-link js-scroll-trigger">
+                                {{ with .Site.Params.navigation.pricing }}{{ . | markdownify }}{{ end }}
+                            </a>
+                        </li>
+                        {{ end }}
+
+                        {{ if .Site.Params.projects.enable }}
+                        <li class="nav-item ">
+                            <a href="#" class="nav-link js-scroll-trigger">
+                                {{ with .Site.Params.navigation.projects }}{{ . | markdownify }}{{ end }}
+                            </a>
+                        </li>
+                        {{ end }}
+
+                        {{ if .Site.Params.contact.enable }}
+                        <li class="nav-item ">
+                            <a href="#" class="nav-link">
+                                {{ with .Site.Params.navigation.contact }}{{ . | markdownify }}{{ end }}
+                            </a>
+                        </li>
+                        {{ end }}
+                    </ul>
+
+                <ul class="ml-lg-auto list-unstyled m-0 nav-btn">
+                    <li><a href="#" class="btn btn-trans-white btn-circled">Get a quote</a></li>
+                </ul>
+            </div> <!-- / .navbar-collapse -->
+        </div> <!-- / .Container -->
+    </nav>
