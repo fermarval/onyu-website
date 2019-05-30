@@ -68,7 +68,7 @@ theme = "hugo-theme-rappo"
 
   # Contact section
   [params.projects]
-    enable = false
+    enable = true
     text1 = "We are trying to deliver 100% quality product and success their business to achieve ultimate goal."
     text2 = "We are providing best service since 1990 to present , committed to best service delivery"
     text3 = "Nullam metus enim, placerat in lacus vel, porttitor egestas libero. Etiam ex risus, feugiat eget accumsan eu, sagittis eu urna. In eget ultrices metus. Nunc accumsan "
@@ -92,7 +92,7 @@ theme = "hugo-theme-rappo"
     image = "img/projects/p-1.jpg"
     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi consequuntur veniam quod"
 
-  
+
 
 
   # Contact section
