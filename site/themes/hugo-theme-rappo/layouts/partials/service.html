@@ -1,0 +1,78 @@
+    <!-- SERVICE-1
+    ================================================== -->
+    <section class="bg-grey" id="service">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-4">
+                    <div class="service-img">
+                        <img src="assets/img/blog-lg.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 pl-4">
+                    <div class="service-content">
+                        <h1>{{ with .Site.Params.service.title }}{{ . | markdownify }}{{ end }}</h1>
+                        <p>{{ with .Site.Params.service.description }}{{ . | markdownify }}{{ end }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-5 service-wrap">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-8 offset-lg-4">
+                    <div class="carousel slide " id="service-carousel" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        {{ range .Site.Params.pricing.item1 }}
+                                        <div class="col-lg-6">
+                                            <div class="service-block media">
+                                                <div class="service-icon">
+                                                    <i class="ti-reload"></i>
+                                                </div>
+                                                <div class="service-inner-content media-body">
+                                                    <h4>{{ .title }}</h4>
+                                                    <p>{{ .description }}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {{ end }}
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        {{ range .Site.Params.pricing.item1 }}
+                                        <div class="col-lg-6">
+                                            <div class="service-block media">
+                                                <div class="service-icon">
+                                                    <i class="ti-reload"></i>
+                                                </div>
+                                                <div class="service-inner-content media-body">
+                                                    <h4>{{ .title }}</h4>
+                                                    <p>{{ .description }}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {{ end }}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p class="pl-3">{{ with .Site.Params.service.subtext }}{{ . | markdownify }}{{ end }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

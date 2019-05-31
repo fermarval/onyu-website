@@ -19,19 +19,21 @@
 
 		{{ partial "hero.html" .}}
 		
-        {{ partial "features.html" .}}
+        {{ partial "feature.html" .}}
+
+        {{ if .Site.Params.service.enable }}
+            {{ partial "service.html" .}}
+        {{ end }}
 
         {{ if .Site.Params.pricing.enable }}
-            {{ partial "prices.html" .}}
+            {{ partial "pricing.html" .}}
         {{ end }}
 
 		{{ if .Site.Params.testimonials.enable }}
         	{{ partial "testimonials.html" .}}
 		{{ end }}
 
-		{{ if .Site.Params.services.enable }}
-        	{{ partial "services.html" .}}
-		{{ end }}
+		
 
 		{{ if .Site.Params.about.enable }}
         	{{ partial "about.html" .}}

@@ -16,10 +16,12 @@ theme = "hugo-theme-rappo"
     brand = "Rappo"
     home = "Home"
     about = "About"
-    services = "Services"
+    service = "Services"
     pricing = "Pricing"
     projects = "Projects"
     contact = "Contact"
+    button = "Get a quote"
+    button_url = "#"
 
   # Hero section
   [params.hero]
@@ -34,10 +36,27 @@ theme = "hugo-theme-rappo"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
   # Services section
-  [params.services]
-    enable = false
-    title = "Affordable Price Plan"
-    description = "Rapoo can be used to create anything from a small marketing page to a sophisticated website."
+  [params.service]
+    enable = true
+    title = "Get a better deal and start saving money today"
+    description = "We compare hundreds of leading products and plans across many categories to bring you the best value for money."
+    subtext = 'Want to know more about this? <a href="#">Contact us</a>'
+
+  [[params.service.item1]]
+    title = "Backup System"
+    description = "Our team are experts in matching you with the right provider."
+
+  [[params.service.item1]]
+    title = "Backup System"
+    description = "Our team are experts in matching you with the right provider."
+
+  [[params.service.item2]]
+    title = "Backup System"
+    description = "Our team are experts in matching you with the right provider."
+
+  [[params.service.item2]]
+    title = "Backup System"
+    description = "Our team are experts in matching you with the right provider."
 
   # Pricing section
   [params.pricing]
