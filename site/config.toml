@@ -35,7 +35,7 @@ theme = "hugo-theme-rappo"
     title = "About"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
-  # Services section
+  # Service section
   [params.service]
     enable = true
     image = "img/blog-lg.jpg"
@@ -62,6 +62,27 @@ theme = "hugo-theme-rappo"
     title = "Backup System"
     description = "Our team are experts in matching you with the right provider."
     icon = "ti-reload"
+
+  # Process section
+  [params.process]
+    enable = true
+    title = "Our Working process"
+    description = "Rapoo can be used to create anything from a small marketing page to a sophisticated website."
+
+  [[params.process.item]]
+    title = "Project Research"
+    image = "img/process/process-1.jpg"
+    description = "Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit."
+
+  [[params.process.item]]
+    title = "Project Research"
+    image = "img/process/process-1.jpg"
+    description = "Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit."
+
+  [[params.process.item]]
+    title = "Project Research"
+    image = "img/process/process-1.jpg"
+    description = "Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit."
 
   # Pricing section
   [params.pricing]
