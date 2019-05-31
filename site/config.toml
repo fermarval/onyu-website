@@ -84,6 +84,37 @@ theme = "hugo-theme-rappo"
     image = "img/process/process-1.jpg"
     description = "Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit."
 
+  # Services section
+  [params.services]
+    enable = true
+    title = "Web Services"
+    description = "Rapoo can be used to create anything from a small marketing page to a sophisticated website."
+
+  [[params.services.item1]]
+    title = "Creative Design"
+    description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
+    icon = "ti-light-bulb"
+
+  [[params.services.item1]]
+    title = "Creative Design"
+    description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
+    icon = "ti-light-bulb"
+
+  [[params.services.item2]]
+    title = "Creative Design"
+    description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
+    icon = "ti-light-bulb"
+
+  [[params.services.item2]]
+    title = "Creative Design"
+    description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
+    icon = "ti-light-bulb"
+
+  [[params.services.item2]]
+    title = "Creative Design"
+    description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
+    icon = "ti-light-bulb"
+
   # Pricing section
   [params.pricing]
     enable = true
