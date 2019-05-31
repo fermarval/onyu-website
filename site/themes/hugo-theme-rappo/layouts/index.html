@@ -25,6 +25,10 @@
             {{ partial "service.html" .}}
         {{ end }}
 
+        {{ if .Site.Params.process.enable }}
+            {{ partial "process.html" .}}
+        {{ end }}
+
         {{ if .Site.Params.pricing.enable }}
             {{ partial "pricing.html" .}}
         {{ end }}
