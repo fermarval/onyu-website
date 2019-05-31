@@ -38,6 +38,7 @@ theme = "hugo-theme-rappo"
   # Services section
   [params.service]
     enable = true
+    image = "img/blog-lg.jpg"
     title = "Get a better deal and start saving money today"
     description = "We compare hundreds of leading products and plans across many categories to bring you the best value for money."
     subtext = 'Want to know more about this? <a href="#">Contact us</a>'
@@ -45,18 +46,22 @@ theme = "hugo-theme-rappo"
   [[params.service.item1]]
     title = "Backup System"
     description = "Our team are experts in matching you with the right provider."
+    icon = "ti-reload"
 
   [[params.service.item1]]
     title = "Backup System"
     description = "Our team are experts in matching you with the right provider."
+    icon = "ti-reload"
 
   [[params.service.item2]]
     title = "Backup System"
     description = "Our team are experts in matching you with the right provider."
+    icon = "ti-reload"
 
   [[params.service.item2]]
     title = "Backup System"
     description = "Our team are experts in matching you with the right provider."
+    icon = "ti-reload"
 
   # Pricing section
   [params.pricing]
