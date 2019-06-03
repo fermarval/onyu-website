@@ -29,12 +29,6 @@ theme = "hugo-theme-rappo"
     subtitle = "Pindom is set of landing and support pages aimed at helping companies promote new products and business launches."
     button = "Purchase now"
 
-  # About section
-  [params.about]
-    enable = false
-    title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
   # Service section
   [params.service]
     enable = true
@@ -75,12 +69,12 @@ theme = "hugo-theme-rappo"
     description = "Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit."
 
   [[params.process.item]]
-    title = "Project Research"
+    title = "Project demostration"
     image = "img/process/process-1.jpg"
     description = "Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit."
 
   [[params.process.item]]
-    title = "Project Research"
+    title = "Development & delivery"
     image = "img/process/process-1.jpg"
     description = "Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit."
 
@@ -110,10 +104,21 @@ theme = "hugo-theme-rappo"
     description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
     icon = "ti-light-bulb"
 
-  [[params.services.item2]]
-    title = "Creative Design"
-    description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
-    icon = "ti-light-bulb"
+
+  
+
+  # About section
+  [params.about]
+    enable = false
+    title = "About"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+  
+
+
+
+  
+
 
   # Pricing section
   [params.pricing]
