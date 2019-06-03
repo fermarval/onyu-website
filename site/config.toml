@@ -90,17 +90,27 @@ theme = "hugo-theme-rappo"
     icon = "ti-light-bulb"
 
   [[params.services.item1]]
-    title = "Creative Design"
+    title = "Web Development"
+    description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
+    icon = "ti-light-bulb"
+
+  [[params.services.item1]]
+    title = "Digital Marketing"
     description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
     icon = "ti-light-bulb"
 
   [[params.services.item2]]
-    title = "Creative Design"
+    title = "Graphic Design"
     description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
     icon = "ti-light-bulb"
 
   [[params.services.item2]]
-    title = "Creative Design"
+    title = "Graphic Design"
+    description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
+    icon = "ti-light-bulb"
+
+  [[params.services.item2]]
+    title = "Wordpress Installation"
     description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
     icon = "ti-light-bulb"
 
@@ -114,12 +124,6 @@ theme = "hugo-theme-rappo"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
   
-
-
-
-  
-
-
   # Pricing section
   [params.pricing]
     enable = true
